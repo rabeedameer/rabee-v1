@@ -24,7 +24,6 @@ footer {
   background: #4c2077;
   margin-bottom: 0;
   height: 60px;
-  /* Set the fixed height of the footer here */
 }
 
 h1, h2, h3 {
@@ -50,6 +49,11 @@ footer p {
 
 .social-media a {
   padding: .5em;
+}
+li.active a{
+  color:gold;
+  font-size: larger;
+  text-shadow: 2px 2px 5px #000;
 }
 
 .social-media li:hover, .navigation li:hover, .img:hover{
