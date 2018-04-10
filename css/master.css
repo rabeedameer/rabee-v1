@@ -1,0 +1,66 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Righteous", cursive;
+  background: #BE90D4;
+  margin-bottom: 60px;
+}
+
+header {
+  height: 35vh;
+  background: #4c2077;
+}
+
+main {
+  padding-top: 1em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background: #4c2077;
+  margin-bottom: 0;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+}
+
+h1, h2, h3 {
+  font-family: "Luckiest Guy", cursive;
+}
+
+h2, h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+header, footer, h1, h2, h3 {
+  text-shadow: 5px 5px 10px #000;
+}
+
+a {
+  color: #F9ECDF;
+}
+
+footer p {
+  margin-top: .75em;
+}
+
+.social-media a {
+  padding: .5em;
+}
+
+.social-media li:hover, .navigation li:hover, .img:hover{
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
